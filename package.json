@@ -1,0 +1,14 @@
+{
+  "name": "webs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "yarn sass --watch ./assets/style/index.scss ./public/index.css"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.1"
+  }
+}

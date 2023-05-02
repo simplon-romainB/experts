@@ -1,0 +1,15 @@
+//variables
+@import 'variables.scss';
+
+//lib
+@import '../../lib/bootstrap.scss';
+@import '../../lib/font-awesome.scss';
+
+//locale
+@import 'base/buttons.scss';
+@import 'base/texts.scss';
+
+p {
+    color: $primary;
+    background-color: $secondary;
+}
